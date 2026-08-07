@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">Idea lineage — essays to systems</title><desc id="desc">A map connecting published theses to software systems.</desc>
+<style>
+:root{color-scheme:light dark}.bg{fill:#0d1117}.box{fill:#161b22;stroke:#30363d}.fg{fill:#f0f6fc}.muted{fill:#8b949e}.essay{fill:#58a6ff}.repo{fill:#3fb950}.edge{stroke:#30363d;stroke-width:2;fill:none}.edge2{stroke:#58a6ff;stroke-width:2;fill:none;stroke-dasharray:6 7}.label{font:600 18px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.small{font:14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.h{font:700 24px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}@media(prefers-color-scheme:light){.bg{fill:#fff}.box{fill:#f6f8fa;stroke:#d0d7de}.fg{fill:#1f2328}.muted{fill:#57606a}.essay{fill:#0969da}.repo{fill:#1a7f37}.edge{stroke:#d0d7de}.edge2{stroke:#0969da}}
+</style>
+<rect class="bg" width="1200" height="560" rx="18"/>
+<text class="fg h" x="54" y="48">THESIS → SYSTEM</text><text class="muted small" x="54" y="74">the essays are not commentary; they are design pressure that turns into code</text>
+<text class="essay label" x="60" y="118">PUBLISHED THESIS</text><text class="repo label" x="790" y="118">IMPLEMENTATION</text>
+<!-- essays -->
+<g><rect class="box" x="54" y="140" width="430" height="72" rx="12"/><text class="fg label" x="76" y="170">Agents are at Docker...</text><text class="muted small" x="76" y="194">coordination layers capture the durable value</text></g>
+<g><rect class="box" x="54" y="230" width="430" height="72" rx="12"/><text class="fg label" x="76" y="260">Winter is Coming</text><text class="muted small" x="76" y="284">production agents inherit distributed-systems physics</text></g>
+<g><rect class="box" x="54" y="320" width="430" height="72" rx="12"/><text class="fg label" x="76" y="350">The Asymptote of Good Enough</text><text class="muted small" x="76" y="374">optimize where marginal user value still moves</text></g>
+<g><rect class="box" x="54" y="410" width="430" height="72" rx="12"/><text class="fg label" x="76" y="440">Tacit Code, Real Friction</text><text class="muted small" x="76" y="464">AI lowers code cost; integration friction becomes the moat</text></g>
+<!-- repos -->
+<g><rect class="box" x="760" y="136" width="382" height="52" rx="10"/><text class="repo label" x="782" y="168">AIPlex · Scion · Agent Factory</text></g>
+<g><rect class="box" x="760" y="216" width="382" height="52" rx="10"/><text class="repo label" x="782" y="248">Anvil · Tape · gemini-rs</text></g>
+<g><rect class="box" x="760" y="296" width="382" height="52" rx="10"/><text class="repo label" x="782" y="328">straitjacket · adk-fluent</text></g>
+<g><rect class="box" x="760" y="376" width="382" height="52" rx="10"/><text class="repo label" x="782" y="408">Anvil · ge-msft · Pixelpitch</text></g>
+<g><rect class="box" x="760" y="456" width="382" height="52" rx="10"/><text class="repo label" x="782" y="488">Worldloom · eval harnesses</text></g>
+<!-- edges -->
+<path class="edge2" d="M484 176 C610 176 635 162 760 162"/><path class="edge" d="M484 176 C620 190 640 242 760 242"/>
+<path class="edge2" d="M484 266 C620 266 640 242 760 242"/><path class="edge" d="M484 266 C620 280 650 162 760 162"/>
+<path class="edge2" d="M484 356 C620 356 640 322 760 322"/><path class="edge" d="M484 356 C620 375 655 482 760 482"/>
+<path class="edge2" d="M484 446 C620 446 650 402 760 402"/><path class="edge" d="M484 446 C620 455 650 482 760 482"/>
+<text class="muted small" x="54" y="530">solid = adjacent consequence · dashed = direct design lineage</text>
+</svg>
