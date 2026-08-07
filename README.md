@@ -16,7 +16,7 @@ Melbourne, Australia
 
 <a href="https://www.linkedin.com/in/vamsiramakrishnan/"><img src="https://img.shields.io/badge/LinkedIn-vamsiramakrishnan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://twitter.com/mrvemzi"><img src="https://img.shields.io/badge/X-@mrvemzi-111111?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
-<a href="https://mrvemzi.notion.site"><img src="https://img.shields.io/badge/notes-mrvemzi.notion.site-111111?style=for-the-badge&logo=notion&logoColor=white" alt="Notes"></a>
+<a href="https://mrvemzi.notion.site"><img src="https://img.shields.io/badge/essays-mrvemzi.notion.site-111111?style=for-the-badge&logo=notion&logoColor=white" alt="Essays"></a>
 
 </div>
 
@@ -27,6 +27,21 @@ My day job is taking AI into production with large enterprises across JAPAC. Thi
 Before probabilistic systems, I spent years around safety-critical automotive software — ABS, ADAS, embedded control and ISO 26262. That leaves a useful bias: **make the model creative at the edges; make the machinery around it boring, inspectable and deterministic.**
 
 I tend to build the missing layer rather than another wrapper around a model.
+
+## The build log
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=vamsiramakrishnan&bg_color=0d1117&color=c9d1d9&line=7ee787&point=ffffff&area=true&hide_border=true&custom_title=Things%20were%20compiled">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vamsiramakrishnan&bg_color=ffffff&color=24292f&line=1f883d&point=1f2328&area=true&hide_border=true&custom_title=Things%20were%20compiled" alt="GitHub contribution activity graph">
+</picture>
+
+<sub><b>Code is the lab notebook.</b> A problem usually starts as a question, becomes an essay or design note, then gets forced through code until the claim survives contact with a runtime.</sub>
+
+</div>
+
+<br>
 
 ```text
                                       ┌─────────────────────────────┐
@@ -56,6 +71,53 @@ I tend to build the missing layer rather than another wrapper around a model.
                        │             REAL SYSTEMS + HUMAN SURFACES                  │
                        └────────────────────────────────────────────────────────────┘
 ```
+
+## Theses that became systems
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### The coordination layer wins
+
+In **[Agents are at Docker. We think we need k8s. We actually need CNCF.](https://mrvemzi.notion.site/Agents-are-at-Docker-We-think-we-need-k8s-We-actually-need-CNCF-2e16c0d7c0d080f1b80cd32be787268c)**, the argument is that primitives create the next coordination problem. Containers created orchestration; agents create identity, policy, routing, isolation, observability and admission problems.
+
+That thesis shows up in **AIPlex**, **Scion**, **GE Agent Factory** and the Antigravity control-plane work.
+
+</td>
+<td width="33%" valign="top">
+
+### Production is the hidden tax
+
+**[The Winter is Coming](https://mrvemzi.notion.site/The-Winter-is-Coming-The-Infrastructure-Reality-of-Production-Ready-Agents-28f6c0d7c0d0813fb6f5fe5cbb0f7ae7)** argues that protocols, frameworks and infrastructure are independently useful but fail at the seams. The missing product is often the translation layer between them.
+
+That became **Anvil**, **Tape**, **gemini-rs** and a lot of the obsession with manifests, IRs and policy-derived runtime behavior.
+
+</td>
+<td width="33%" valign="top">
+
+### Better has an asymptote
+
+**[The Asymptote of Good Enough](https://mrvemzi.notion.site/The-Asymptote-of-Good-Enough-2c86c0d7c0d080a79a54e05945492c2e)** treats latency, price and quality as a task-specific frontier rather than a leaderboard. Once marginal user value flattens, further model improvement is often inferior to better systems engineering.
+
+That shows up in **straitjacket**, **adk-fluent**, model routing, cache locality and developer-experience work.
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>More writing ↗</b></summary>
+<br>
+
+- **[Tacit Code, Real Friction](https://mrvemzi.notion.site/Tacit-Code-Real-Friction-The-Enterprise-Reality-Behind-AI-s-Coding-Revolution-2b06c0d7c0d080a88421fe34cb71cfd2)** — AI coding lowers the cost of producing code; it does not dissolve tacit knowledge, integration friction or consequence.
+- **[AI Leaderboards Are No Longer Useful. It's Time to Switch to Pareto Curves.](https://mrvemzi.notion.site/AI-Leaderboards-Are-No-Longer-Useful-It-s-Time-to-Switch-to-Pareto-Curves-c4b1caf5fb8d4e82a4ccc3f9e1e36141)** — evaluation as a frontier, not a scalar rank.
+- **[On AI-UX and Data Feedback Loops as Moats](https://mrvemzi.notion.site/On-AI-UX-and-Data-Feedback-Loops-as-Moats-e6de68039b8d4af1b9a78da502c7debf)** — product interaction as an information-gathering mechanism, not merely presentation.
+- **[An ode to all AI Prisoners](https://mrvemzi.notion.site/An-ode-to-all-AI-Prisoners-2b56c0d7c0d080bf825af0a3174c7de1)** — inference economics are only one line item once agents start searching, grounding and looping.
+
+**[Read the notebook →](https://mrvemzi.notion.site)**
+
+</details>
 
 ## Selected systems
 
@@ -228,7 +290,7 @@ Includes corpus harvesting, SSIM/OCR oracles, reusable design systems and dozens
 10  DEVEX IS ARCHITECTURE          setup, errors, introspection and docs are system design
 ```
 
-## Languages I reach for
+## Under the hood
 
 <div align="center">
 
@@ -243,14 +305,6 @@ Includes corpus harvesting, SSIM/OCR oracles, reusable design systems and dozens
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vamsiramakrishnan&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="165" alt="Top languages">
 
 </div>
-
-## Writing
-
-I write about the infrastructure around AI systems: agent runtimes, evaluation, inference economics, developer tooling, context engineering and the gap between a demo and a system that survives contact with an enterprise.
-
-**The Plumbing Paradox** · **Winter is Coming** · **The Asymptote of Good Enough**
-
-Longer notes: [mrvemzi.notion.site](https://mrvemzi.notion.site) · posts: [LinkedIn](https://www.linkedin.com/in/vamsiramakrishnan/)
 
 ---
 
