@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Vamsi Ramakrishnan — systems around models</title>
+<desc id="desc">Editorial terminal-style hero for Vamsi Ramakrishnan's GitHub profile.</desc>
+<style>
+  :root { color-scheme: light dark; }
+  .bg{fill:#0d1117}.panel{fill:#010409;stroke:#30363d}.muted{fill:#8b949e}.fg{fill:#f0f6fc}.accent{fill:#3fb950}.blue{fill:#58a6ff}.purple{fill:#bc8cff}
+  text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+  .tiny{font-size:14px}.small{font-size:17px}.body{font-size:20px}.h1{font-size:46px;font-weight:700;letter-spacing:-1.4px}
+  @media (prefers-color-scheme: light){.bg{fill:#ffffff}.panel{fill:#f6f8fa;stroke:#d0d7de}.muted{fill:#57606a}.fg{fill:#1f2328}.accent{fill:#1a7f37}.blue{fill:#0969da}.purple{fill:#8250df}}
+  .cursor{animation:blink 1.05s steps(1,end) infinite}@keyframes blink{50%{opacity:0}}
+</style>
+<rect class="bg" width="1200" height="360" rx="18"/>
+<rect class="panel" x="28" y="28" width="1144" height="304" rx="14"/>
+<circle cx="55" cy="54" r="6" fill="#ff5f56"/><circle cx="75" cy="54" r="6" fill="#ffbd2e"/><circle cx="95" cy="54" r="6" fill="#27c93f"/>
+<text class="muted tiny" x="112" y="60">~/vamsi — systems.log</text>
+<text class="accent small" x="58" y="110">$ whoami</text>
+<text class="fg h1" x="58" y="164">VAMSI RAMAKRISHNAN</text>
+<text class="blue body" x="58" y="204">forward deployed engineering · compilers · runtimes · control planes</text>
+<text class="muted small" x="58" y="248">I build the machinery around models.</text>
+<text class="fg small" x="58" y="281">deterministic where possible. probabilistic where necessary.</text>
+<text class="purple small" x="58" y="312">spec → system → evidence → repeat</text>
+<rect class="accent cursor" x="409" y="296" width="10" height="18" rx="1"/>
+</svg>
