@@ -1,0 +1,37 @@
+name: Refresh profile assets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 1 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_activity.py"
+      - ".github/workflows/profile-assets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  activity:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate contribution calendar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: vamsiramakrishnan
+        run: python3 scripts/generate_activity.py
+      - name: Commit changed asset
+        run: |
+          if git diff --quiet -- assets/activity.svg; then
+            echo "activity.svg unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg
+          git commit -m "chore(profile): refresh contribution calendar"
+          git push
