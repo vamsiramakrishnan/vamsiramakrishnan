@@ -1,0 +1,118 @@
+identity:
+  name: Vamsi Ramakrishnan
+  headline: I build the machinery around models.
+  role: Forward Deployed Engineering · JAPAC · Google Cloud
+  location: Melbourne, Australia
+  github: https://github.com/vamsiramakrishnan
+  essays: https://mrvemzi.notion.site
+  linkedin: https://www.linkedin.com/in/vamsiramakrishnan/
+  thesis: The model can improvise. The system should know what happened.
+
+now:
+  - label: NOW
+    project: straitjacket
+    text: context economics for coding agents
+  - label: RECENT
+    project: anvil
+    text: legacy estates → agent-safe capability surfaces
+  - label: BUILDING
+    project: synthetic-foundry
+    text: coherent synthetic enterprises and eval truth
+
+projects:
+  - id: anvil
+    name: Anvil
+    repo: https://github.com/vamsiramakrishnan/anvil
+    tagline: API estate → agent-safe capability compiler
+    audience: You have APIs or legacy middleware that agents must use safely.
+    thesis: Specs are the durable asset; callable surfaces should be compiled from one reviewed source of truth.
+    mechanism: source contract → AIR → CLI | MCP | skill | hooks | evals
+    pipeline: [Source contract, AIR, CLI · MCP · Skill, Hooks · Evals]
+    evidence: One canonical model aligns every generated surface; legacy inventory preserves provenance and uncertainty.
+    stack: [TypeScript, MCP, compilers, legacy modernization]
+    essays: [winter, tacit]
+  - id: synthetic-foundry
+    name: Worldloom
+    repo: https://github.com/vamsiramakrishnan/synthetic-foundry
+    tagline: Synthetic enterprises with a memory of truth
+    audience: You need enterprise-scale corpora where documents, systems and eval answers reconcile.
+    thesis: Generate the world before generating the files.
+    mechanism: world → events → facts → ArtifactIR → native artifacts + eval truth
+    pipeline: [World, Facts, ArtifactIR, XLSX · DOCX · PPTX · Evals]
+    evidence: Evidence and ground truth share one ledger; generation is deterministic, dispersed, sharded and resumable.
+    stack: [Python, synthetic data, artifacts, evals]
+    essays: [asymptote, tacit]
+  - id: gemini-rs
+    name: gemini-rs
+    repo: https://github.com/vamsiramakrishnan/gemini-rs
+    tagline: Rust runtime for Gemini Multimodal Live
+    audience: You need realtime voice agents without turning transport and control flow into application code.
+    thesis: Separate wire protocol, runtime semantics and fluent developer experience.
+    mechanism: wire → runtime → shared state → governed flow
+    pipeline: [Wire, Runtime, State spine, Governed voice agent]
+    evidence: Typed state, deterministic recognizers, tools, phases, extraction, background work and governed DAGs.
+    stack: [Rust, WebSockets, realtime voice, agent runtime]
+    essays: [winter]
+  - id: durable-agents
+    name: Tape
+    repo: https://github.com/vamsiramakrishnan/durable-agents
+    tagline: Resume remembers the story
+    audience: Your agent performs external effects and must survive partial failure.
+    thesis: Acting agents need database-grade recovery semantics beneath the model loop.
+    mechanism: decision → journal → effect → crash → replay/reconcile
+    pipeline: [Decision, Journal, Effect, Replay · Reconcile]
+    evidence: Append-only execution journal with language-neutral gRPC and Python/TypeScript/Go/Java SDKs.
+    stack: [Rust, WAL, gRPC, durable execution]
+    essays: [winter]
+  - id: straitjacket
+    name: straitjacket
+    repo: https://github.com/vamsiramakrishnan/straitjacket
+    tagline: Lossless context containment for coding agents
+    audience: Your coding agent is drowning in tool output or destroying cache locality.
+    thesis: Omitted bytes need an exact deterministic address, not a lossy summary.
+    mechanism: unbounded output → immutable store → bounded digest → exact retrieval
+    pipeline: [304k-token output, Immutable store, ~210-token digest, Exact address]
+    evidence: Reproducible eval receipts measure context reduction, cache behavior and evidence retention.
+    stack: [Python, Rust, context engineering, coding harnesses]
+    essays: [asymptote]
+  - id: ge-agent-factory
+    name: GE Agent Factory
+    repo: https://github.com/vamsiramakrishnan/ge-agent-factory
+    tagline: Intent → contract → proof → admission
+    audience: You need to industrialize agent delivery rather than hand-build demos.
+    thesis: Business intent should compile into implementation and evidence, then be admitted by policy.
+    mechanism: interview/BRD → contract → code + twins + evals → passport → handoff
+    pipeline: [Intent, Contract, Code · Twins · Evals, Passport · Admission]
+    evidence: The same factory machinery is exercised across hundreds of horizontal and vertical agent specifications.
+    stack: [TypeScript, ADK, evals, provenance]
+    essays: [docker, winter]
+
+essays:
+  - id: docker
+    title: Agents are at Docker. We think we need k8s. We actually need CNCF.
+    thesis: The primitive attracts attention; the coordination layer absorbs complexity and captures durable value.
+    systems: [aiplex, scion, ge-agent-factory]
+  - id: winter
+    title: The Winter is Coming
+    thesis: Protocols, frameworks and infrastructure must compose deliberately for production agents.
+    systems: [anvil, durable-agents, gemini-rs, aiplex]
+  - id: asymptote
+    title: The Asymptote of Good Enough
+    thesis: Optimize only while marginal improvement still changes user behavior or system outcomes.
+    systems: [straitjacket, adk-fluent, synthetic-foundry]
+  - id: tacit
+    title: Tacit Code, Real Friction
+    thesis: As code gets cheap, integration, verification and institutional constraints become scarcer.
+    systems: [anvil, ge-msft, synthetic-foundry]
+
+principles:
+  - SPEC > PROMPT
+  - IR > HAND-WIRING
+  - REFUSE > GUESS
+  - RESUME > RETRY
+  - ADDRESSES > SUMMARIES
+  - EVIDENCE > VIBES
+  - PURE COMPOSES; EFFECTS GATE
+  - LOCAL FIRST
+  - BORING CONTROL PLANE
+  - DEVEX IS ARCHITECTURE
