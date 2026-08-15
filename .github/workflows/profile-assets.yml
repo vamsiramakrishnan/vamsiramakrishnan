@@ -7,6 +7,8 @@ on:
   push:
     branches: [main]
     paths:
+      - "portfolio.yaml"
+      - "scripts/generate_portfolio.py"
       - "scripts/generate_activity.py"
       - ".github/workflows/profile-assets.yml"
 
@@ -14,24 +16,28 @@ permissions:
   contents: write
 
 jobs:
-  activity:
+  generate:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install generator dependency
+        run: python3 -m pip install --disable-pip-version-check pyyaml
+      - name: Generate portfolio projections
+        run: python3 scripts/generate_portfolio.py
       - name: Generate contribution calendar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_ACTOR: vamsiramakrishnan
         run: python3 scripts/generate_activity.py
-      - name: Commit changed asset
+      - name: Commit changed projections
         run: |
-          if git diff --quiet -- assets/activity.svg; then
-            echo "activity.svg unchanged"
+          if git diff --quiet -- assets site generated; then
+            echo "portfolio projections unchanged"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/activity.svg
-          git commit -m "chore(profile): refresh contribution calendar"
+          git add assets site generated
+          git commit -m "chore(profile): refresh generated portfolio"
           git push
