@@ -81,5 +81,3 @@ Private repositories are not listed.
 | [jsonlovesyaml](https://github.com/vamsiramakrishnan/jsonlovesyaml) | Yet another series of tutorials for the cloud habitants |
 | [oracle-functions-samples](https://github.com/vamsiramakrishnan/oracle-functions-samples) | Examples demonstrating how to use Oracle Functions |
 | [scion](https://github.com/vamsiramakrishnan/scion) | Repository history and source |
-
-
