@@ -50,7 +50,7 @@ retrieval are separate results, both available for inspection.
 
 [Repository and quickstart](https://github.com/vamsiramakrishnan/synthetic-foundry) ·
 [Guides](https://github.com/vamsiramakrishnan/synthetic-foundry/blob/main/docs/README.md) ·
-[Docs](https://vamsiramakrishnan.github.io/synthetic-foundry/)
+[Docs](https://vamsiramakrishnan.github.io/worldloom/)
 
 These products address different parts of an agent workflow. They can be
 assessed independently; this is not a claim of a packaged integration between them.
