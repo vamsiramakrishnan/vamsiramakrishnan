@@ -1,6 +1,6 @@
 # Repository directory
 
-A navigation index of the public repositories visible on 6 September 2026.
+A navigation index of the public repositories visible on 22 November 2026.
 GitHub's original/fork designation describes repository lineage, not authorship
 of every file. Inclusion is not a maintenance or production-readiness claim.
 Private repositories are not listed.
@@ -15,20 +15,24 @@ Private repositories are not listed.
 | [invideo-audio-gen](https://github.com/vamsiramakrishnan/invideo-audio-gen) | Repository history and source |
 | [stt-gemini-tts](https://github.com/vamsiramakrishnan/stt-gemini-tts) | Repository history and source |
 | [adk-fluent](https://github.com/vamsiramakrishnan/adk-fluent) | Fluent builder API for Google's Agent Development Kit (ADK) |
-| [gemini-rs](https://github.com/vamsiramakrishnan/gemini-rs) | Full Rust SDK for the Gemini Multimodal Live API — wire protocol, agent runtime, and fluent DX in three layered crates. |
+| [gemini-rs](https://github.com/vamsiramakrishnan/gemini-rs) | Rust SDK and runtime for Gemini text agents, Gemini Live voice, telephony and governed conversation flows. |
 | [adk-hackathon-demo-fluent](https://github.com/vamsiramakrishnan/adk-hackathon-demo-fluent) | Proactive Network Outage Communication Agent — multi-agent system built with Google ADK and adk-fluent |
 | [gemini-enterprise-ember](https://github.com/vamsiramakrishnan/gemini-enterprise-ember) | Repository history and source |
-| [aiplex](https://github.com/vamsiramakrishnan/aiplex) | A scalable tool, agent, model registry & gateway based on keycloak, gke , cloud service mesh, mTLS , spiffe  |
-| [pixelpitch](https://github.com/vamsiramakrishnan/pixelpitch) | HTML-to-PPTX that actually works. Solves the layout transpiler trap by rendering DOM in a headless browser before classifying to native OOXML or rasterized shapes. |
-| [durable-agents](https://github.com/vamsiramakrishnan/durable-agents) | The need for a runtime substrate that supports durable, replayable, agent execution paradigms   |
+| [aiplex](https://github.com/vamsiramakrishnan/aiplex) | Self-hosted AI gateway and control plane for models, MCP tools and agents, with identity, policy and usage accounting. |
+| [pixelpitch](https://github.com/vamsiramakrishnan/pixelpitch) | Local slide authoring with sandboxed HTML preview and editable PowerPoint export through slidify. |
+| [durable-agents](https://github.com/vamsiramakrishnan/durable-agents) | Tape journals decisions and effects so acting agents can recover and replay after interruption. |
 | [ge-agent-factory](https://github.com/vamsiramakrishnan/ge-agent-factory) | GE Agent Factory — generate, test & deploy Gemini Enterprise agents. Open in Cloud Shell to install the whole factory into your own GCP project. https://vamsiramakrishnan.github.io/ge-agent-factory/ |
 | [antigravity-a2a-a2ui](https://github.com/vamsiramakrishnan/antigravity-a2a-a2ui) | A2A integration and A2UI for antigravity |
 | [ge-msft](https://github.com/vamsiramakrishnan/ge-msft) | Microsoft adds in to work with Gemini enterprise experience within the microsoft ecosystem |
-| [anvil](https://github.com/vamsiramakrishnan/anvil) | Anvil turns API specifications — OpenAPI, Swagger, SOAP/WSDL, gRPC (protobuf), and GraphQL — into production-ready tools for agents. Point it at a spec and it generates a type-safe CLI, a fully compliant MCP & portable “skill” definition, complete with structured error handling, automatic retries, and idempotency guarantees for unsafe operations. |
+| [anvil](https://github.com/vamsiramakrishnan/anvil) | Compile OpenAPI, WSDL, gRPC, GraphQL and OData contracts into MCP servers, CLIs, SDKs and agent skills. |
 | [straitjacket](https://github.com/vamsiramakrishnan/straitjacket) | Bounded tool results with addressable evidence for coding agents |
-| [synthetic-foundry](https://github.com/vamsiramakrishnan/synthetic-foundry) | Generate coherent synthetic enterprise worlds that evolve over time and materialize into realistic documents, business systems, and knowledge artifacts for AI evaluation, retrieval, and agent testing. |
+| [synthetic-foundry](https://github.com/vamsiramakrishnan/synthetic-foundry) | Worldloom generates coherent synthetic enterprise documents, records and ground truth for RAG and agent evaluation. |
 | [model-armor-pentest-suite](https://github.com/vamsiramakrishnan/model-armor-pentest-suite) | Google Cloud Model Armor & GEAP AI Security Penetration Testing Suite |
 | [vamsiramakrishnan](https://github.com/vamsiramakrishnan/vamsiramakrishnan) | A quick summary of my profile |
+| [agy-blender](https://github.com/vamsiramakrishnan/agy-blender) | Antigravity 3D asset pipeline for Blender and OpenUSD, with glTF and USD export checks for game engines. |
+| [branchyard](https://github.com/vamsiramakrishnan/branchyard) | Run coding agents in isolated branches, inspect each run, and review changes before merging. |
+| [ge-slack](https://github.com/vamsiramakrishnan/ge-slack) | Gemini Enterprise for Slack, with grounded answers and approval before posting. |
+| [pixelpitch-slidegen](https://github.com/vamsiramakrishnan/pixelpitch-slidegen) | Create editable PowerPoint decks in Gemini Enterprise through MCP Apps or A2A with A2UI. |
 
 ## Other original repositories
 
